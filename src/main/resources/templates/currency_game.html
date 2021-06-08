@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>My game</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+
+    <script th:src="@{/webjars/jquery/3.5.1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/4.3.1/js/bootstrap.min.js}"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="box ">
+
+        <br>
+        <h1 class="text-center text-warning display">My currency game</h1>
+        <p class="element-2">Zgadnij wartość <span class="text-uppercase">PLN</span> w
+            <span><a th:text="${currencyName}" class="text-warning"></a></span></p>
+
+        <form  th:action="@{/currencies/rate}">
+            <input class="fa-solid fa-dollar-sign" id="search" type="text" placeholder="Wprowadź wartość"
+                   name="currency" value=""/>
+            <input id="submit" class="btn-outline-primary" type="submit" value="Sprawdż!"></input>
+        </form>
+    </div>
+</div>
+</body>
+</html>

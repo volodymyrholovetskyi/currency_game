@@ -1,0 +1,116 @@
+
+
+
+body {
+    background-color: #505050;
+}
+
+
+--primary-color {
+    color: #0082fa;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    border: 10px solid #0082fa;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 365px;
+    margin-top: 100px;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-rows: repeat(4, 1fr);*/
+    /*grid-template-areas: 'element main main'*/
+
+}
+
+.element-1 {
+    font-size: 30px;
+    color: #0082fa;
+    padding-left: 110px;
+    padding-right: 100px;
+    padding-top: 50px;
+    /*padding-bottom: 15px;*/
+}
+
+.element-2 {
+    font-size: 25px;
+    color: black;
+    padding-left: 30px;
+    /*padding-right: 90px;*/
+    padding-top: 25px;
+    /*padding-bottom: 15px;*/
+}
+
+.btn {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+}
+
+.btn {
+    border-radius: 15px;
+    padding: 6px 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+
+#search {
+    background-color: #fff;
+    /*border: none;*/
+    margin-top: 30px;
+    margin-left: 10px;
+        border-radius: 5px;
+        /*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);*/
+        /*font-family: inherit;*/
+        /*font-size: 1rem;*/
+        /*padding: 1rem;*/
+        min-width: 150px;
+    }
+
+#search {
+    width: 50%;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 35px;
+    outline: none;
+    padding: 3px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+#search:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#submit {
+    /*border: none;*/
+    border-radius: 5px;
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);*/
+    /*font-family: inherit;*/
+    /*font-size: 1rem;*/
+    /*padding: 1rem;*/
+    min-width: 25px;
+}
+
+/* .button-element:hover {*/
+
+/* }*/
+
+
+
+
